@@ -79,12 +79,6 @@ npm install
 ### 2. Run the server
 
 ```
-npm start
-```
-
-or (if using nodemon):
-
-```
 npm run dev
 ```
 
