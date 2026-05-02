@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
-import { usuarios } from "../routes/usuarios.routes.js";
+import { usuarios } from "../services/usuarios.service.js";
 
 export const authService = async (username, password) => {
 
